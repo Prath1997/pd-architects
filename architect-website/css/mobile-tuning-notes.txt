@@ -1,0 +1,9 @@
+Mobile tuning applied on 2026-05-23:
+- Hero min-heights adjusted for small screens (56-74vh ranges).
+- Hero title/subtitle scaled down at 820px and 480px breakpoints.
+- Founder layout switches to stacked with adjusted padding and border behavior.
+- Services grid reduced to 2 columns at <=820px and 1 column at <=480px.
+- WhatsApp float reduced size on mobile.
+- Lightbox navigation sizes reduced for smaller screens.
+
+If further adjustments are needed, test on device and list pages/screens that feel off.
