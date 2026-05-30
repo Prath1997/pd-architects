@@ -1,8 +1,8 @@
 /**
- * Project portfolio data from PDA portfolio PDF.
+ * Project portfolio data from PD portfolio PDF.
  * Replace images[] paths when PDF exports are added to /images/projects/
  */
-window.PDA_PROJECTS = {
+window.PD_PROJECTS = {
     'hotel-grand': {
         title: 'Hotel Grand',
         status: 'Upcoming',
@@ -145,7 +145,7 @@ window.PDA_PROJECTS = {
     }
 };
 
-window.PDA_TESTIMONIALS = [
+window.PD_TESTIMONIALS = [
     {
         quote: 'Good architecture is not about making things look complicated. It is about making the complex appear simple.',
         author: 'Tadao Ando',
@@ -158,11 +158,11 @@ window.PDA_TESTIMONIALS = [
     },
     {
         quote: 'Where every cup feels like home.',
-        author: 'PDA Interiors',
+        author: 'PD Interiors',
         role: 'Cafe Interior Project'
     },
     {
-        quote: 'PDA Architects delivered our approvals and design with clarity, professionalism and on-time coordination.',
+        quote: 'PD Architects delivered our approvals and design with clarity, professionalism and on-time coordination.',
         author: 'Residential Client',
         role: 'Nashik'
     },

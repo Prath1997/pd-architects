@@ -1,7 +1,7 @@
-# Architect Website
+# PD Architects Website
 
 ## Overview
-This project is a modern responsive website for an architecture firm. It showcases the firm's philosophy, services, and projects while providing a user-friendly experience. The website is designed to be SEO-friendly and includes smooth scrolling and animations for enhanced interactivity.
+This project is the official website for **PD Architects** (Pradeep Deshmukh Architects), Nashik. It showcases the firm's philosophy, services, and projects while providing a user-friendly experience. The website is designed to be SEO-friendly and includes smooth scrolling and animations for enhanced interactivity.
 
 ## Project Structure
 ```

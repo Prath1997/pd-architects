@@ -8,7 +8,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
-const pdfPath = path.join(root, 'images', 'PDA_portfolio.pdf');
+const pdfPath = path.join(root, 'images', 'PD_portfolio.pdf');
 const outDir = path.join(root, 'images');
 
 async function main() {

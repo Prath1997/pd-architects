@@ -1,6 +1,6 @@
 (function () {
     const modal = document.getElementById('projectDetailModal');
-    if (!modal || !window.PDA_PROJECTS) return;
+    if (!modal || !window.PD_PROJECTS) return;
 
     const overlay = modal.querySelector('.pdm-overlay');
     const closeBtn = modal.querySelector('.pdm-close');
@@ -30,7 +30,7 @@
     let lbOpen = false;
 
     const openModal = (id) => {
-        project = window.PDA_PROJECTS[id];
+        project = window.PD_PROJECTS[id];
         if (!project) return;
         imgIndex = 0;
         titleEl.textContent = project.title;

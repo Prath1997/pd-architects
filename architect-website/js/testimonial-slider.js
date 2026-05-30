@@ -1,8 +1,8 @@
 (function () {
     const sliders = document.querySelectorAll('.testimonial-slider');
-    if (!sliders.length || !window.PDA_TESTIMONIALS) return;
+    if (!sliders.length || !window.PD_TESTIMONIALS) return;
 
-    const data = window.PDA_TESTIMONIALS;
+    const data = window.PD_TESTIMONIALS;
 
     sliders.forEach((root) => {
         const track = root.querySelector('.testimonial-track');
