@@ -1,4 +1,4 @@
-﻿// ===== HAMBURGER MENU =====
+// ===== HAMBURGER MENU =====
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
 const header = document.getElementById('header');
@@ -53,7 +53,7 @@ const observer = new IntersectionObserver(entries => {
     });
 }, observerOptions);
 
-document.querySelectorAll('.service-card, .why-card, .gallery-item, .founder-info, .about-content, .contact-block, .svc-highlight-card, .svc-feature-card, .svc-timeline-step, .svc-why-card, .svc-split-card').forEach(element => {
+document.querySelectorAll('.service-card, .why-card, .gallery-item, .project-list-card, .founder-info, .about-content, .contact-block, .svc-highlight-card, .svc-feature-card, .svc-timeline-step, .svc-why-card, .svc-split-card').forEach(element => {
     element.style.opacity = '0';
     observer.observe(element);
 });
@@ -293,14 +293,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!hero) return;
     const bg = getComputedStyle(hero).backgroundImage;
     if (!bg || bg === 'none') {
-        hero.style.backgroundImage = "url('images/Homepage-banner.png')";
+        hero.style.backgroundImage = "url('images/Homepage-banner.webp')";
         hero.style.backgroundSize = 'cover';
         hero.style.backgroundPosition = 'center center';
         hero.style.backgroundRepeat = 'no-repeat';
     }
 });
 
-/* ===== PROJECTS LIGHTBOX ===== */
+/* Legacy image-only lightbox — superseded by project-gallery.js (data-project-id) */
 (function () {
     const modal = document.getElementById('projectLightbox');
     if (!modal) return;
